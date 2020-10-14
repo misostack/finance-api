@@ -1,5 +1,6 @@
 {
-  "watch": ["src", "dist", "views"],
-  "ext": "js,hbs",
-  "exec": "node dist/main"
+  "verbose": true,
+  "watch": ["src", "views"],
+  "ext": "ts, hbs",
+  "exec": "nest start --watch"
 }
